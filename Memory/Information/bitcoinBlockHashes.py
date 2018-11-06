@@ -46,7 +46,7 @@ def _main(block):
  global Block
  BTC_BLOCK_HASHES = pickle.load(open('btc-block-hashes.vnm','rb'))
  Hash = Clone_System(HASH_URL+str(block))
- XHash = Hash[6525:6929]
+ XHash = Hash[6800:7059]
  #print('Sorting [{}]'.format(XHash))
  starting = _grabFirst(XHash)
  ending = _grabSecond(XHash)
